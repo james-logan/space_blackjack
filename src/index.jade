@@ -1,0 +1,27 @@
+doctype html
+html(class="no-js" lang="")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    title SPACE BLACKJACK
+    meta(name="description" content="")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="css/main.css")
+    link(href='http://fonts.googleapis.com/css?family=Exo:200,400,700' rel='stylesheet' type='text/css')
+  body
+    .sudo-background
+      h1.title Blackjack
+      .card-table
+        .dealer-box.box
+        .bottom-row
+          .button-box
+            button(disabled=true).hit HIT
+            button(disabled=true).stand STAND
+          .player-box.box
+          .numbers
+            .win-bust
+            .bet
+            .credits
+      button.new-game NEW GAME
+    script(type="text/javascript" src="lib/build.js")
+    script(type="text/javascript" src="js/main.js")
